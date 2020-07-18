@@ -201,3 +201,13 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.first-abt {
+    border-bottom: 2px dashed black;
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+}
+
+.first-abt img {
+    margin-bottom: 5%;
+}

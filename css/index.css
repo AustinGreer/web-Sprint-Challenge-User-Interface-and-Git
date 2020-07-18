@@ -202,6 +202,9 @@ footer nav a {
     text-decoration: none;
 }
 
+
+/* about page code starts here */
+
 .first-abt {
     border-bottom: 2px dashed black;
     margin-bottom: 5%;
@@ -209,5 +212,110 @@ footer nav a {
 }
 
 .first-abt img {
+    margin-bottom: 5%;
+}
+
+.two-three {
+    display: flex;
+}
+
+.second-abt {
+    border-bottom: 2px dashed black;
+    margin-bottom: 10%;
+    padding-bottom: 5%;
+    width: 48%;
+    margin-right: 10%;
+}
+
+.second-abt img {
+    margin-bottom: 3%;
+    
+}
+
+.second-abt p {
+    margin-bottom: 3%;
+}
+
+.second-abt button {
+    background-color: white;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 1rem;
+}
+
+.third-abt {
+    border-bottom: 2px dashed black;
+    margin-bottom: 10%;
+    padding-bottom: 5%;
+    width: 48%;
+    margin-right: 10%;
+}
+
+.third-abt img {
+    margin-bottom: 3%;
+}
+
+.third-abt p {
+    margin-bottom: 3%;
+}
+
+.third-abt button {
+    background-color: white;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 1rem;
+}
+
+.four-five {
+    display: flex;
+}
+
+.fourth-abt {
+    border-bottom: 2px dashed black;
+    margin-bottom: 10%;
+    padding-bottom: 5%;
+    width: 48%;
+    margin-right: 10%;
+}
+
+.fourth-abt img {
+    margin-bottom: 3%;
+}
+
+.fourth-abt p {
+    margin-bottom: 3%;
+}
+
+.fourth-abt button {
+    background-color: white;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 1rem;
+}
+
+.fifth-abt {
+    border-bottom: 2px dashed black;
+    margin-bottom: 10%;
+    padding-bottom: 5%;
+    width: 48%;
+    margin-right: 10%;
+}
+
+.fifth-abt img {
+    margin-bottom: 3%;
+}
+
+.fifth-abt p {
+    margin-bottom: 3%;
+}
+
+.fifth-abt button {
+    background-color: white;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 1rem;
+}
+
+.sixth-abt {
     margin-bottom: 5%;
 }

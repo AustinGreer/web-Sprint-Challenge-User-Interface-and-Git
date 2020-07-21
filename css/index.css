@@ -66,10 +66,34 @@ p {
     line-height: 1.4;
 }
 
+header {
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 5%;
+    padding-top: 3%;
+    width: 70%;
+    margin-left: 1%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    width: 15%;
+    
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
 
 .top-content {
     display: flex;
@@ -77,6 +101,11 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content img {
+    width: 100%;
+    padding-bottom: 5%;
 }
 
 .top-content .text-container {
@@ -104,12 +133,40 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box:nth-of-type(2) {
+    background-color: gold;
+}
+.middle-content .boxes .box:nth-of-type(3) {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box:nth-of-type(4) {
+    background-color: coral;
+}
+.middle-content .boxes .box:nth-of-type(5) {
+    background-color: crimson;
+}
+.middle-content .boxes .box:nth-of-type(6) {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box:nth-of-type(7) {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box:nth-of-type(8) {
+    background-color: hotpink;
+}
+.middle-content .boxes .box:nth-of-type(9) {
+    background-color: indigo;
+}
+.middle-content .boxes .box:nth-of-type(10) {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +200,122 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* about page code starts here */
+
+.first-abt {
+    border-bottom: 2px dashed black;
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+}
+
+.first-abt img {
+    margin-bottom: 5%;
+}
+
+.two-three {
+    display: flex;
+}
+
+.second-abt {
+    border-bottom: 2px dashed black;
+    margin-bottom: 10%;
+    padding-bottom: 5%;
+    width: 48%;
+    margin-right: 10%;
+}
+
+.second-abt img {
+    margin-bottom: 3%;
+    
+}
+
+.second-abt p {
+    margin-bottom: 3%;
+}
+
+.second-abt button {
+    background-color: white;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 1rem;
+}
+
+.third-abt {
+    border-bottom: 2px dashed black;
+    margin-bottom: 10%;
+    padding-bottom: 5%;
+    width: 48%;
+    margin-right: 10%;
+}
+
+.third-abt img {
+    margin-bottom: 3%;
+}
+
+.third-abt p {
+    margin-bottom: 3%;
+}
+
+.third-abt button {
+    background-color: white;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 1rem;
+}
+
+.four-five {
+    display: flex;
+}
+
+.fourth-abt {
+    border-bottom: 2px dashed black;
+    margin-bottom: 10%;
+    padding-bottom: 5%;
+    width: 48%;
+    margin-right: 10%;
+}
+
+.fourth-abt img {
+    margin-bottom: 3%;
+}
+
+.fourth-abt p {
+    margin-bottom: 3%;
+}
+
+.fourth-abt button {
+    background-color: white;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 1rem;
+}
+
+.fifth-abt {
+    border-bottom: 2px dashed black;
+    margin-bottom: 10%;
+    padding-bottom: 5%;
+    width: 48%;
+    margin-right: 10%;
+}
+
+.fifth-abt img {
+    margin-bottom: 3%;
+}
+
+.fifth-abt p {
+    margin-bottom: 3%;
+}
+
+.fifth-abt button {
+    background-color: white;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 1rem;
+}
+
+.sixth-abt {
+    margin-bottom: 5%;
 }
